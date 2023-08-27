@@ -1,0 +1,57 @@
+
+<html lang="en">
+
+<head>
+  <meta name="navin purbey">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  type="text/css" href="meme.css">
+  
+  <title>Meme Generator</title>
+
+</head>
+<body>
+    <h1> A Meme Generator for Everyone</h1>
+
+    
+    <section class="container">
+      <form id="meme-form">
+        <div>
+            <label>Upload an Image</label>
+            <input type="url" class="form-control" id="uploaded-img" placeholder="Your URL Goes Here" required>
+        </div>
+        <div>
+            <label>Top Text</label>
+            <input type="text" class="form-control" id="text-top" placeholder="Your Top Text Goes Here">
+        </div>
+        <div>
+            <label>Bottom Text</label>
+            <input type="text" class="form-control" id="text-bottom"
+              placeholder="Your Bottom Text Goes Here">
+        </div>
+        <div>
+            <input type="submit" class="btn btn-success" value="Generate it!">
+          
+        </div>
+
+      </form>
+
+      <div class="line"></div>
+    </section>
+  
+
+  <section class="meme-gallery">
+
+    <ul class="gallery">
+    </ul>
+
+
+ 
+
+   
+
+    <script src="memetry.js"></script>
+
+</body>
+  
+</html>
